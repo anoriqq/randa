@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
 import ReactDOM from 'react-dom'
-import {RestClient, IRestResponse} from 'typed-rest-client'
+import {RestClient} from 'typed-rest-client'
 
 import './styles.sass'
 
-const baseUrl = 'http://localhost:8000'
+const baseUrl = process.env.BASE_URL
 const restc = new RestClient('application-api', baseUrl)
 
 type TOSS_STATE = 'unexecuted' | 'loading' | 'tossed'
