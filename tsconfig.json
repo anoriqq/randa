@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2015", "DOM"],
+    "jsx": "react",
+
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "removeComments": true,
+    "strict": true
+  }
+}
