@@ -1,0 +1,24 @@
+{
+  "name": "randa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "anoriqq <shota.yoshikawa@anoriqq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel watch index.tsx",
+    "build": "parcel build index.tsx"
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "tslib": "2.0.0",
+    "typed-rest-client": "1.7.3"
+  },
+  "devDependencies": {
+    "@types/react": "16.9.43",
+    "@types/react-dom": "16.9.8",
+    "parcel-bundler": "1.12.4",
+    "sass": "1.26.10",
+    "typescript": "3.9.7"
+  }
+}
