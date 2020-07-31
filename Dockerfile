@@ -25,4 +25,4 @@ COPY --from=builder /usr/src/randa/randa ./
 COPY --from=builder /usr/src/randa/dist ./dist
 COPY --from=builder /usr/src/randa/public ./public
 EXPOSE 8000
-CMD ./randa
+CMD GIN_MODE=release ./randa
